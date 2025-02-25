@@ -3,6 +3,3 @@
 function addnum {
   echo $(( $1 + $2 ))
 }
-
-
-
