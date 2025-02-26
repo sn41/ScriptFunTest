@@ -12,8 +12,19 @@
 # 7) Если пользователь ответил Y, удалить каталог с сообщением об удалении каталога
 #    иначе - завершить программу с выводом сообщения "Каталог не удалён"
 
+#IFS='\n'
+#for line in $(cat script2.sh)
+#do
+#  echo $line
+#done
 
 
+#IFS='\n'
+#while  IFS= read -r line;
+while read -r line;
+do
+  echo $line
+done < script2.sh
 
 
 
